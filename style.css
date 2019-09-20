@@ -1,0 +1,126 @@
+body {
+    background-image: linear-gradient(to right bottom, #060111, #1f1335, #3d1a59, #63197a, #900098);
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.contenedor {
+
+
+    height: 100vh;
+    display: table;
+}
+
+.wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 45%;
+}
+.btn-CO{
+    background-color: #63197a;
+    width: 200PX;color: #FFFFFF;
+
+}
+.btn-CO:hover{
+background-color: #900098;
+box-shadow: #06011165 0px 0px 10px;   
+color: #FFFFFF; 
+}
+.st0 {
+
+    stroke-dasharray: 1800;
+    opacity: 1;
+    animation: animate 3s cubic-bezier(.64,.65,.5,.49);
+
+
+}
+#quienessomos{
+    height: 400px;
+  
+}
+.menu {
+  
+    background-color: #ffffff00
+    
+}
+#formulario{
+    padding-top: 400px;
+    height: auto;
+
+}
+
+.form-control{
+    background-color: #1f133500;
+ 
+    border-color: #1f133500;
+    border-block-end-color: #f311ff;
+}
+  
+
+
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+} 
+a:hover{
+    text-decoration: none;
+    color: rgb(255, 0, 242);
+border-bottom: #f311ff 4px;
+} 
+
+.logo{margin-left: 1%;
+
+  
+
+}
+
+@keyframes animate {
+    0% {
+        opacity: 1;
+        fill: none;
+        stroke: rgb(255, 0, 221);
+        stroke-dashoffset: 1800;
+    }
+
+
+
+
+    50% {
+        opacity: 1;
+        fill: none;
+        stroke: rgb(255, 255, 255);
+        stroke-dashoffset: 1600;
+    }
+
+
+
+    90% {
+        opacity: 1;
+        fill: none;
+        stroke-dashoffset: 1400;
+    }
+
+    100% {
+        opacity:1;
+        fill: none;
+        stroke: #f311ff;
+        stroke-dashoffset:0;
+
+
+    }
+
+}
+
+#footer{
+    background-color: #1f13357c;
+    margin-top: 200px;
+    height: 400px;
+}
+
